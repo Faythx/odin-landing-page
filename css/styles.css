@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+.header-container {
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links ul {
+    list-style: None;
+    font-size: 18px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: white;
+}   
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-display: light italic;
+    color: #1F2937;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    color: white;
+}
