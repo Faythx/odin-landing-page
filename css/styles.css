@@ -1,11 +1,18 @@
 body {
     height: 100vh;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
     background-color: #3882F6;
     color: white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 a {
@@ -13,10 +20,21 @@ a {
     color: #E5E7EB
 }
 
+
+ul {
+    list-style: None;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
 .header-container {
     background-color: #1F2937;
     color: white;
-
+    height: 60px;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-logo {
@@ -24,14 +42,18 @@ a {
     color: #F9FAF8;
 }
 
-.header-links ul {
-    list-style: None;
-    font-size: 18px;
+.header-links {
+    display: flex;
+    gap: 20px;
 }
 
 .hero-container {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
 }   
 
 .hero-main {
@@ -45,10 +67,26 @@ a {
     color: #E5E7EB
 }
 
+.hero-container img {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+}
+
 .content-title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+}
+
+.content-items {
+    display:flex;
+    justify-content: space-between;
+}
+
+.content-item {
+    
 }
 
 .quote-container {
